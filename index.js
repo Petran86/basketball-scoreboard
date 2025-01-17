@@ -32,3 +32,20 @@ function awayAddThree() {
     awaySum += 3
     awayScore.textContent = awaySum
 }
+
+function removeHomePoints() {
+    homeSum -= 1
+    homeScore.textContent = homeSum
+}
+
+function removeAwayPoints() {
+    awaySum -= 1
+    awayScore.textContent = awaySum
+}
+
+function resetScore() {
+    homeSum = 0
+    awaySum = 0
+    homeScore.textContent = homeSum
+    awayScore.textContent = awaySum
+}
