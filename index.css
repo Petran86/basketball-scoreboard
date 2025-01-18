@@ -6,7 +6,7 @@
 body {
     height: 100vh;
     margin: 0;
-    background-image: url("./images/pexels-hemanthnirujogi-3189980.jpg");
+    background-image: url("./images/pexels-almadastudio-1390266.jpg");
     background-size: cover;
 }
 
@@ -15,8 +15,14 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     background-color: rgb(36, 36, 36);
     text-align: center;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
 }
 
 h3 {
@@ -28,8 +34,7 @@ h3 {
     width: 155px;
     height: 120px;
     background-color: rgb(82, 82, 82);
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
     font-size: 5rem;
     font-family: "Cursed Timer ULiL";
 }
@@ -65,10 +70,10 @@ button:hover {
     color: lightblue;
 }
 
-.mistakes-reset {
+/* .mistakes-reset {
     display: flex;
     justify-content: center;
     background-color: rgb(36, 36, 36);
     max-width: 800px;
     margin: 0 auto;
-}
+} */
